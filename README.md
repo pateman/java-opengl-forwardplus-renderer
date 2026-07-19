@@ -4,6 +4,9 @@ This repository contains a Java demo implementing a small Forward+ renderer usin
 
 The goal is not to be a full engine, but to show the complete rendering pipeline in one place: depth pre-pass, GPU tiled light culling, forward shading with many point lights, shadow mapping, FPS reporting, and a simple post-processing pass. Plus, it's been ages since I've last written anything outside my regular e-commerce projects, so it a nice change.
 
+## Eye candy
+![Screenshot](docs/screenshot.png)
+
 ## Features
 
 - GLFW window and OpenGL 4.3 core context.
