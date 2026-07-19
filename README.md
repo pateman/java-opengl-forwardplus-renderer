@@ -9,20 +9,19 @@ The goal is not to be a full engine, but to show the complete rendering pipeline
 
 ## Features
 
-- GLFW window and OpenGL 4.3 core context.
-- Simple cube-based scene.
-- Hundreds of animated point lights.
-- Randomized point light colors.
-- Depth-only pre-pass.
-- GPU tiled light culling using a compute shader.
-- Per-tile light index lists stored in shader storage buffer objects.
-- Final forward shading that only evaluates lights affecting the current screen tile.
-- Directional light with shadow mapping.
-- 3x3 PCF shadow filtering.
-- FPS and frame-time display in the window title.
-- Fullscreen post-processing pass.
-- Toggleable vignette effect.
-- Debug heatmap showing how many lights affect each screen tile.
+- GLFW window and OpenGL 4.3 core context
+- Simple cube-based scene
+- Hundreds of animated point lights
+- Depth-only pre-pass
+- GPU tiled light culling using a compute shader
+- Per-tile light index lists stored in shader storage buffer objects
+- Final forward shading that only evaluates lights affecting the current screen tile
+- Directional light with shadow mapping
+- 3x3 PCF shadow filtering
+- FPS and frame-time display in the window title
+- Fullscreen post-processing pass
+- Toggleable vignette effect
+- Debug heatmap showing how many lights affect each screen tile
 
 ## Requirements
 
